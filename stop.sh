@@ -1,5 +1,5 @@
 #!/bin/bash
-LREDIS_HOME='/home/toribio/Redis'
+LREDIS_HOME='/home/mtoribio/redis-sentinel'
 kill -9 `cat $LREDIS_HOME/redis/redis1.pid`
 kill -9 `cat $LREDIS_HOME/redis/redis2.pid`
 kill -9 `cat $LREDIS_HOME/redis/redis3.pid`
