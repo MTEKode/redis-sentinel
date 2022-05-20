@@ -1,5 +1,7 @@
 #!/bin/bash
 
+DIR=$HOME/redis-sentinel
+
 redis-server ./redis1.conf
 redis-server ./redis2.conf
 redis-server ./redis3.conf
